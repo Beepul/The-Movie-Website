@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(28, 28, 28);
+}
+
+.container {
+  padding: 0px;
+}
+
+.header {
+  background-color: #032541;
+}
+.header .logo img {
+  width: 90%;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding-top: 18px;
+}
+.menu ul a {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 30px;
+  color: white;
+}
+
+.block1 {
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  height: 564px;
+}
+.block1 .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(3, 37, 65, 0.4431372549);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.block1 .movie-details {
+  color: white;
+}
+.block1 .movie-details h1 {
+  font-weight: 700;
+}
+.block1 .movie-details h1 span {
+  font-weight: 500;
+  color: rgb(200, 200, 200);
+}
+.block1 .movie-details .a {
+  color: rgb(200, 200, 200);
+  border: 2px solid rgb(200, 200, 200);
+  width: 60px;
+  text-align: center;
+  font-weight: 600;
+}
+.block1 .movie-details .movie-type {
+  position: relative;
+}
+.block1 .movie-details .movie-type::after {
+  content: "•";
+  padding-left: 20px;
+  font-size: 30px;
+  position: absolute;
+  top: -36%;
+  right: -7%;
+}
+.block1 .movie-details .shorts-con .shorts {
+  position: relative;
+  width: 60px;
+}
+.block1 .movie-details .shorts-con .shorts .prog {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: -11%;
+}
+.block1 .movie-details .shorts-con .shorts .prog p {
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  left: 30%;
+}
+.block1 .movie-details .shorts-con .shorts .prog svg {
+  top: 0;
+  left: 0;
+}
+.block1 .movie-details .shorts-con .shorts .prog svg circle {
+  fill: #032541;
+  stroke: #19CFB3;
+  stroke-width: 4px;
+  stroke-dasharray: 176;
+}
+.block1 .movie-details .shorts-con h4 {
+  width: 80px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.block1 .movie-details .shorts-con i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #032541;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.play-btn {
+  color: white;
+  cursor: pointer;
+}
+
+.btn-close {
+  --bs-btn-close-bg: none;
+}
+
+.modal {
+  --bs-modal-width: 80%;
+  top: 75px;
+}
+
+.modal-content {
+  border: none;
+  background-color: rgba(21, 21, 21, 0.559);
+  border-radius: 0px;
+}
+
+.modal-body {
+  padding: 0;
+}
+.modal-body h2 {
+  color: white;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.video {
+  width: 100%;
+}
+
+.modal-title {
+  color: white;
+}
+
+.bi-x-square {
+  color: white;
+  font-size: 28px;
+}/*# sourceMappingURL=movie.css.map */
